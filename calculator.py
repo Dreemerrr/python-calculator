@@ -34,4 +34,17 @@ else:
 
 if option == 'exit':
     print("Exiting the program. Goodbye!")
-            
+
+while True:
+    # Get user input
+    user_input = input("Enter something: ")
+
+    # Check if the input is the exit command
+    if user_input.lower() == 'exit':
+        print("Exit command received. Quitting program.")
+        break  # This breaks the while loop, ending the program
+
+    # Otherwise, process the input as usual
+    print(f"You typed: {user_input}")
+
+print("Program terminated.")
