@@ -37,7 +37,7 @@ if option == 'exit':
 
 while True:
     # Get user input
-    user_input = input("Enter something: ")
+    user_input = input("Type exit if you want to quit: ")
 
     # Check if the input is the exit command
     if user_input.lower() == 'exit':
